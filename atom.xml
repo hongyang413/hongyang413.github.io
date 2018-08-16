@@ -61,28 +61,6 @@
   </entry>
   
   <entry>
-    <title>Spring+Mybatis依赖配置</title>
-    <link href="http://yoursite.com/2018/08/16/Spring%E5%92%8CMybatis%E6%A1%86%E6%9E%B6%E4%BE%9D%E8%B5%96%E9%85%8D%E7%BD%AE/"/>
-    <id>http://yoursite.com/2018/08/16/Spring和Mybatis框架依赖配置/</id>
-    <published>2018-08-16T03:35:37.000Z</published>
-    <updated>2018-08-16T03:42:13.973Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong> Spring+Mybatis依赖配置：</strong> <excerpt in="" index="" |="" 首页摘要=""><br>使用Spring+Mybatis进行开发所需的依赖配置，非Web应用<br><a id="more"></a></excerpt></p><the rest="" of="" contents="" |="" 余下全文=""><h1 id="一组可用的Spring-Mybatis的Maven配置"><a href="#一组可用的Spring-Mybatis的Maven配置" class="headerlink" title="一组可用的Spring+Mybatis的Maven配置"></a>一组可用的Spring+Mybatis的Maven配置</h1><p>Spring+MyBatis+Mysql+Lombok+Logback</p><pre><code>&lt;!-- Lombok --&gt;&lt;!-- https://mvnrepository.com/artifact/org.projectlombok/lombok --&gt;&lt;dependency&gt;  &lt;groupId&gt;org.projectlombok&lt;/groupId&gt;  &lt;artifactId&gt;lombok&lt;/artifactId&gt;  &lt;version&gt;1.16.18&lt;/version&gt;  &lt;scope&gt;provided&lt;/scope&gt;&lt;/dependency&gt;&lt;!-- MyBatis+Spring+Druid相关依赖 --&gt;&lt;dependency&gt;  &lt;groupId&gt;mysql&lt;/groupId&gt;  &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;  &lt;version&gt;5.0.8&lt;/version&gt;&lt;/dependency&gt;&lt;!-- https://mvnrepository.com/artifact/org.mybatis/mybatis --&gt;&lt;dependency&gt;  &lt;groupId&gt;org.mybatis&lt;/groupId&gt;  &lt;artifactId&gt;mybatis&lt;/artifactId&gt;  &lt;version&gt;3.4.1&lt;/version&gt;&lt;/dependency&gt;&lt;!-- https://mvnrepository.com/artifact/com.alibaba/druid --&gt;&lt;dependency&gt;  &lt;groupId&gt;com.alibaba&lt;/groupId&gt;  &lt;artifactId&gt;druid&lt;/artifactId&gt;  &lt;version&gt;1.1.9&lt;/version&gt;&lt;/dependency&gt;&lt;!-- spring整合mybatis --&gt;&lt;dependency&gt;  &lt;groupId&gt;org.mybatis&lt;/groupId&gt;  &lt;artifactId&gt;mybatis-spring&lt;/artifactId&gt;  &lt;version&gt;1.3.0&lt;/version&gt;&lt;/dependency&gt;&lt;!-- LogBack日志所用的依赖 --&gt;&lt;dependency&gt;  &lt;groupId&gt;ch.qos.logback&lt;/groupId&gt;  &lt;artifactId&gt;logback-classic&lt;/artifactId&gt;  &lt;version&gt;1.2.3&lt;/version&gt;&lt;/dependency&gt; &lt;!--https://mvnrepository.com/artifact/org.slf4j/slf4j-api--&gt;&lt;dependency&gt;  &lt;groupId&gt;org.slf4j&lt;/groupId&gt;  &lt;artifactId&gt;slf4j-api&lt;/artifactId&gt;  &lt;version&gt;1.7.25&lt;/version&gt;&lt;/dependency&gt;&lt;!-- Spring框架所用的依赖 --&gt;&lt;dependency&gt;  &lt;groupId&gt;org.springframework&lt;/groupId&gt;  &lt;artifactId&gt;spring-core&lt;/artifactId&gt;  &lt;version&gt;4.3.14.RELEASE&lt;/version&gt;&lt;/dependency&gt;&lt;dependency&gt;  &lt;groupId&gt;org.springframework&lt;/groupId&gt;  &lt;artifactId&gt;spring-context&lt;/artifactId&gt;  &lt;version&gt;4.3.14.RELEASE&lt;/version&gt;&lt;/dependency&gt;&lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-tx --&gt;&lt;dependency&gt;  &lt;groupId&gt;org.springframework&lt;/groupId&gt;  &lt;artifactId&gt;spring-tx&lt;/artifactId&gt;  &lt;version&gt;4.3.14.RELEASE&lt;/version&gt;&lt;/dependency&gt;&lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc --&gt;&lt;dependency&gt;  &lt;groupId&gt;org.springframework&lt;/groupId&gt;  &lt;artifactId&gt;spring-jdbc&lt;/artifactId&gt;  &lt;version&gt;4.3.14.RELEASE&lt;/version&gt;&lt;/dependency&gt;&lt;!--&amp;lt;!&amp;ndash; Spring定义Bean的支持 &amp;ndash;&amp;gt;--&gt;&lt;dependency&gt;  &lt;groupId&gt;org.springframework&lt;/groupId&gt;  &lt;artifactId&gt;spring-beans&lt;/artifactId&gt;  &lt;version&gt;4.3.14.RELEASE&lt;/version&gt;&lt;/dependency&gt;&lt;!-- 使用表达式语言在运行时查询和操作对象 --&gt;&lt;dependency&gt;  &lt;groupId&gt;org.springframework&lt;/groupId&gt;  &lt;artifactId&gt;spring-expression&lt;/artifactId&gt;  &lt;version&gt;4.3.14.RELEASE&lt;/version&gt;&lt;/dependency&gt;</code></pre></the>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt; Spring+Mybatis依赖配置：&lt;/strong&gt; &lt;excerpt in=&quot;&quot; index=&quot;&quot; |=&quot;&quot; 首页摘要=&quot;&quot;&gt;&lt;br&gt;使用Spring+Mybatis进行开发所需的依赖配置，非Web应用&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Spring" scheme="http://yoursite.com/categories/Spring/"/>
-    
-    
-      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Maven项目打可运行Jar包</title>
     <link href="http://yoursite.com/2018/08/16/%E4%BD%BF%E7%94%A8Maven%E6%89%93%E5%8F%AF%E8%BF%90%E8%A1%8CJar%E5%8C%85%E9%85%8D%E7%BD%AE/"/>
     <id>http://yoursite.com/2018/08/16/使用Maven打可运行Jar包配置/</id>
@@ -94,6 +72,28 @@
     <summary type="html">
     
       &lt;p&gt;&lt;strong&gt; Maven项目打可运行Jar包：&lt;/strong&gt; &lt;excerpt in=&quot;&quot; index=&quot;&quot; |=&quot;&quot; 首页摘要=&quot;&quot;&gt;&lt;br&gt;在Maven项目中打Jar包的几种方式介绍&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Spring" scheme="http://yoursite.com/categories/Spring/"/>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring+Mybatis依赖配置</title>
+    <link href="http://yoursite.com/2018/08/16/Spring%E5%92%8CMybatis%E6%A1%86%E6%9E%B6%E4%BE%9D%E8%B5%96%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2018/08/16/Spring和Mybatis框架依赖配置/</id>
+    <published>2018-08-16T03:35:37.000Z</published>
+    <updated>2018-08-16T03:42:13.973Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong> Spring+Mybatis依赖配置：</strong> <excerpt in="" index="" |="" 首页摘要=""><br>使用Spring+Mybatis进行开发所需的依赖配置，非Web应用<br><a id="more"></a></excerpt></p><the rest="" of="" contents="" |="" 余下全文=""><h1 id="一组可用的Spring-Mybatis的Maven配置"><a href="#一组可用的Spring-Mybatis的Maven配置" class="headerlink" title="一组可用的Spring+Mybatis的Maven配置"></a>一组可用的Spring+Mybatis的Maven配置</h1><p>Spring+MyBatis+Mysql+Lombok+Logback</p><pre><code>&lt;!-- Lombok --&gt;&lt;!-- https://mvnrepository.com/artifact/org.projectlombok/lombok --&gt;&lt;dependency&gt;  &lt;groupId&gt;org.projectlombok&lt;/groupId&gt;  &lt;artifactId&gt;lombok&lt;/artifactId&gt;  &lt;version&gt;1.16.18&lt;/version&gt;  &lt;scope&gt;provided&lt;/scope&gt;&lt;/dependency&gt;&lt;!-- MyBatis+Spring+Druid相关依赖 --&gt;&lt;dependency&gt;  &lt;groupId&gt;mysql&lt;/groupId&gt;  &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;  &lt;version&gt;5.0.8&lt;/version&gt;&lt;/dependency&gt;&lt;!-- https://mvnrepository.com/artifact/org.mybatis/mybatis --&gt;&lt;dependency&gt;  &lt;groupId&gt;org.mybatis&lt;/groupId&gt;  &lt;artifactId&gt;mybatis&lt;/artifactId&gt;  &lt;version&gt;3.4.1&lt;/version&gt;&lt;/dependency&gt;&lt;!-- https://mvnrepository.com/artifact/com.alibaba/druid --&gt;&lt;dependency&gt;  &lt;groupId&gt;com.alibaba&lt;/groupId&gt;  &lt;artifactId&gt;druid&lt;/artifactId&gt;  &lt;version&gt;1.1.9&lt;/version&gt;&lt;/dependency&gt;&lt;!-- spring整合mybatis --&gt;&lt;dependency&gt;  &lt;groupId&gt;org.mybatis&lt;/groupId&gt;  &lt;artifactId&gt;mybatis-spring&lt;/artifactId&gt;  &lt;version&gt;1.3.0&lt;/version&gt;&lt;/dependency&gt;&lt;!-- LogBack日志所用的依赖 --&gt;&lt;dependency&gt;  &lt;groupId&gt;ch.qos.logback&lt;/groupId&gt;  &lt;artifactId&gt;logback-classic&lt;/artifactId&gt;  &lt;version&gt;1.2.3&lt;/version&gt;&lt;/dependency&gt; &lt;!--https://mvnrepository.com/artifact/org.slf4j/slf4j-api--&gt;&lt;dependency&gt;  &lt;groupId&gt;org.slf4j&lt;/groupId&gt;  &lt;artifactId&gt;slf4j-api&lt;/artifactId&gt;  &lt;version&gt;1.7.25&lt;/version&gt;&lt;/dependency&gt;&lt;!-- Spring框架所用的依赖 --&gt;&lt;dependency&gt;  &lt;groupId&gt;org.springframework&lt;/groupId&gt;  &lt;artifactId&gt;spring-core&lt;/artifactId&gt;  &lt;version&gt;4.3.14.RELEASE&lt;/version&gt;&lt;/dependency&gt;&lt;dependency&gt;  &lt;groupId&gt;org.springframework&lt;/groupId&gt;  &lt;artifactId&gt;spring-context&lt;/artifactId&gt;  &lt;version&gt;4.3.14.RELEASE&lt;/version&gt;&lt;/dependency&gt;&lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-tx --&gt;&lt;dependency&gt;  &lt;groupId&gt;org.springframework&lt;/groupId&gt;  &lt;artifactId&gt;spring-tx&lt;/artifactId&gt;  &lt;version&gt;4.3.14.RELEASE&lt;/version&gt;&lt;/dependency&gt;&lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc --&gt;&lt;dependency&gt;  &lt;groupId&gt;org.springframework&lt;/groupId&gt;  &lt;artifactId&gt;spring-jdbc&lt;/artifactId&gt;  &lt;version&gt;4.3.14.RELEASE&lt;/version&gt;&lt;/dependency&gt;&lt;!--&amp;lt;!&amp;ndash; Spring定义Bean的支持 &amp;ndash;&amp;gt;--&gt;&lt;dependency&gt;  &lt;groupId&gt;org.springframework&lt;/groupId&gt;  &lt;artifactId&gt;spring-beans&lt;/artifactId&gt;  &lt;version&gt;4.3.14.RELEASE&lt;/version&gt;&lt;/dependency&gt;&lt;!-- 使用表达式语言在运行时查询和操作对象 --&gt;&lt;dependency&gt;  &lt;groupId&gt;org.springframework&lt;/groupId&gt;  &lt;artifactId&gt;spring-expression&lt;/artifactId&gt;  &lt;version&gt;4.3.14.RELEASE&lt;/version&gt;&lt;/dependency&gt;</code></pre></the>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt; Spring+Mybatis依赖配置：&lt;/strong&gt; &lt;excerpt in=&quot;&quot; index=&quot;&quot; |=&quot;&quot; 首页摘要=&quot;&quot;&gt;&lt;br&gt;使用Spring+Mybatis进行开发所需的依赖配置，非Web应用&lt;br&gt;
     
     </summary>
     
